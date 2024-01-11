@@ -3,7 +3,7 @@ import 'package:firebase_chat/components/my_dialog.dart';
 import 'package:firebase_chat/components/my_textfield.dart';
 import 'package:flutter/material.dart';
 
-import '../auth/auth_service.dart';
+import '../services/auth/auth_service.dart';
 
 class LoginPage extends StatelessWidget {
   final void Function()? onTap;
